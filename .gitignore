@@ -1,0 +1,5 @@
+# This mirror publishes PREBUILT artifacts, so lib/ is intentionally tracked
+# (it is the whole point of this repo) — unlike the monorepo, which ignores it.
+node_modules/
+*.tgz
+*.tsbuildinfo
